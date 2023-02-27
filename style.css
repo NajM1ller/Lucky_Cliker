@@ -1,0 +1,12 @@
+.use-1 button {
+    background: url('Images/Lucky_Block.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    border: 0;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  .button:active {
+    transform: translateY(4px);
+  }
