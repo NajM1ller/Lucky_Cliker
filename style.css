@@ -3,10 +3,15 @@
     width: 150px;
     height: 150px;
     border: 0;
+    margin-top: 200px;
+    margin-left: 475px;
   }
   button:hover {
     cursor: pointer;
   }
   .button:active {
     transform: translateY(4px);
+  }
+  .клик {
+    text-align: center;
   }
