@@ -1,14 +1,29 @@
 var A=document.getElementById("клик");
 var B=document.getElementById("клики");
-let C=995;
-const D=1000;
-let F=50;
-var sound=document.getElementById("Sound1");
-B.addEventListener("click",function(){
-  C++; 
-  if (C == 1000) { 
-    sound.play();
-    console.log('музыка должна играть');
-}
-  A.textContent="кликов сделано "+C; console.log(C);
-});
+let C=240;
+B.addEventListener("click",function() {
+    C++;
+    if (C == 250) {
+        events.Music()
+    }
+    if (C >= 250) {
+        C++
+    }
+    if (C == 501) {
+        events.Background()
+    }
+    if (C >=502){
+        C++
+    }
+    if (C == 750){
+        events.Text()
+    }
+    if (C >=753){
+        C++
+    }
+    if (C == 1002){
+        events.Lucky_Block()
+    }
+
+    A.textContent="кликов сделано "+C; console.log(C);
+})
