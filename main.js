@@ -1,29 +1,20 @@
 var A=document.getElementById("клик");
 var B=document.getElementById("клики");
-let C=240;
+window. C=0;
 B.addEventListener("click",function() {
     C++;
-    if (C == 250) {
+    if (C == 200) {
         events.Music()
     }
-    if (C >= 250) {
-        C++
-    }
-    if (C == 501) {
+    if (C == 400) {
         events.Background()
     }
-    if (C >=502){
-        C++
-    }
-    if (C == 750){
+    if (C == 600){
         events.Text()
     }
-    if (C >=753){
-        C++
-    }
-    if (C == 1002){
+    if (C == 1000){
         events.Lucky_Block()
+        events.Repetition()
     }
-
-    A.textContent="кликов сделано "+C; console.log(C);
+    A.textContent="Кликов сделано "+C; console.log(C);
 })

@@ -6,6 +6,7 @@
     margin-right: auto;
     margin-left: auto;
     display: block;
+    margin-top: 50px;
   }
   button:hover {
     cursor: pointer;
@@ -15,11 +16,20 @@
   }
   .клик {
     text-align: center;
-    margin: px;
+    margin-top: 60px;
+    text-shadow: 1px 0 1px #000;
+    color: burlywood;
   }
 body {
-    margin: 0px;
+    margin: 0%;
     width: 100vw;
     height: 100vh;
 
+}
+.Text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  margin-top: 300px;
+  color: white;
+  text-shadow: 1px 0 1px #000;
 }
